@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+#header {
+	width: 85%;
+	margin: 0 auto;
+}
+header img {
+	max-width: 100%;
+	/*margin: 0;*/
+	display: block;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+#header li {
+	float: left;
+	width: 12.5%;
+}
+#header li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	height: 24px;
+	line-height: 24px;
+}
+
+#about {
+	width: 90%;
+	margin: 0 auto;	
+	-moz-column-count: 3;
+}
+#author {
+	width: 85%;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+
+.gallery li {
+	list-style-type: none;
+	float: left;
+	width: 24%;
+}
+.gallery img {
+	width: 100%;
+	max-width: 100%;
+}
+#author p {
+	clear: left;
+}
