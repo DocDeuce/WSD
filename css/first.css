@@ -1,7 +1,11 @@
 body{
 	margin: 0;
 	padding: 0;
-	width: 100%
+	width: 100%;
+	background: url("../images/city.gif") left bottom no-repeat;
+}
+header{
+	background: url("../images/hiphopcollage.jpg") left bottom no-repeat;
 }
 #logo {
 	width: 85%;
@@ -13,7 +17,7 @@ body{
 	display: block;
 }
 #nav {
-	background: blue;
+	background: black;
 }
 nav {
 	width: 85%;
@@ -33,21 +37,33 @@ nav ul li a {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	height: 24px;
-	line-height: 24px;
+	height: 44px;
+	line-height: 44px;
+}
+nav li a:visited {
+	color: navy;
+}
+nav li a:hover {
+	text-shadow: 2px 2px 3px silver;
+}
+nav li a:active {
+	color: white;
+	background: black;
 }
 #about {
-	background: silver;	
+	background: white;	
 	-moz-column-count: 3;
-	width: 82.5%;
+	width: 80%;
 	float: right;
-	padding-right: 7.5%;
+	margin-top: 44px;
+	padding-right: 10%;
 	padding-left: 2.5%;		
 }
 #author {
-	background: violet;
+	background: white;
 	width: 80%;
 	float: left;
+	margin-top: 44px;
 	padding-left: 10%;
 	padding-right: 2.5%;
 }
