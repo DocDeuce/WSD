@@ -1,11 +1,13 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background: url("../images/city.gif") left bottom no-repeat;
 }
 header{
 	background: url("../images/hiphopcollage.jpg") left bottom no-repeat;
+}
+#body {
+	background: url("../images/city.gif") left bottom no-repeat;
 }
 #logo {
 	width: 85%;
@@ -32,6 +34,7 @@ nav ul {
 nav ul li {
 	float: left;
 	width: 12.5%;
+	font: 20px 'Dosis', sans-serif;
 }
 nav ul li a {
 	display: block;
@@ -41,44 +44,91 @@ nav ul li a {
 	line-height: 44px;
 }
 nav li a:visited {
-	color: navy;
+	color: white;
 }
 nav li a:hover {
+	color: black;
 	text-shadow: 2px 2px 3px silver;
+	background: white;
 }
 nav li a:active {
 	color: white;
 	background: black;
 }
+p {
+	font-family: 'Sintony', sans-serif;
+}
+h1 {
+	font: 30px 'Dosis', sans-serif;
+	text-shadow: 4px 3px 1px #bfc5c8; 
+	margin: 0;
+}
+h2 {
+	font-family: 'Cardo', serif;
+}
 #about {
-	background: white;	
+	background: rgba(255,255,255,0.94);
+	border: 1.5px solid #42abd7;
+	border-right: none;
 	-moz-column-count: 3;
 	width: 80%;
 	float: right;
 	margin-top: 44px;
-	padding-right: 10%;
-	padding-left: 2.5%;		
+	padding: 1.5% 10% 1.5% 2.5%;
+}
+#about h2 {
+	padding-bottom: .1%;
+}
+#about p {
+	text-indent: 2em;
 }
 #author {
-	background: white;
+	background: rgba(255,255,255,0.94);
+	border: 1.5px solid #42abd7;
+	border-left: none;	
 	width: 80%;
 	float: left;
 	margin-top: 44px;
-	padding-left: 10%;
-	padding-right: 2.5%;
+	margin-bottom: 44px;
+	padding: 1.5% 2.5% 1.5% 10%;
 }
-.gallery li {
+#author h2 {
+	margin: 0;
+	padding: 0;
+}
+#gallery {
+	overflow: hidden;
+}
+#gallery ul{
+	display: block;
+	overflow: hidden;
+	margin-left: 0;
+	padding-left: 0;
+}
+#gallery li {
+	display: block;
 	list-style-type: none;
 	float: left;
-	width: 24%;
+	width: 23.5%;
+	font: 20px 'Dosis', sans-serif;
+	/*margin-right: 2%;*/
 }
-.gallery img {
+#gallery .rm {
+	margin-right: 2%;
+	overflow: hidden;
+}
+#gallery img {
 	width: 100%;
 	max-width: 100%;
+	margin-top: 2.5%;
 }
 #author p {
+	/*overflow: hidden;*/
 	clear: left;
 }
 footer {
 	clear: both;
+	overflow: hidden;
+	background: white;
+	padding: 1.5% 2.5%; 
 }
