@@ -153,14 +153,19 @@ footer {
 /* Mobile portait to mobile landscape */
 @media only screen and (max-width: 479px) {
 	body { background: url("../images/citymin.gif") left bottom no-repeat; }
-	nav { width: 100%; padding: 0 2.5%;}
-	#nav { width: 100%; padding: 0 2.5%; }
+	#logo img { display: none; }
+	#logo img.min { display: block; max-width: 75%; margin: 0 auto; }
+	#nav { width: 100%; }
+	nav { width: 100%; }
 	nav ul li { width: 50%; font: 1.2em 'Dosis', sans-serif; }
-	#about { -moz-column-count: 1; 	width: 100%; float: none; margin-top: 11px; padding: 1.5% 2.5%;}		
-	#author { width: 100%; float: none; margin-top: 11px; padding: 1.5% 2.5%; border-right: none; }
+	section { clear: both; overflow: hidden; margin: 0; padding: 0; }
+	#about { float: none; width: 92%; padding: 1.5% 4%; margin: 0; border-top: 3px solid #42abd7; border-left: none;  -moz-column-count: 1;}
+	h1 { font: 1.5em 'Dosis', sans-serif; text-align: center; }
+	h2 { font: normal 1.3em 'Playfair Display', serif; text-align: center; }
+	article { /*clear: both; overflow: hidden;*/ margin: 0; }
+	#author { float: none;  width: 92%; padding: 1.5% 4%; margin: 0; border-right: none; }
 	#gallery ul { margin: 0 auto; }
 	#gallery li { float: none; width: 90%; margin: 0 auto; }
 	#gallery .rm { margin: 0 auto; }
-	/*#logo img { display: none; }
-	#logo img.min { display: block; width: 100%; max-width: 100%; }*/
+
 }
