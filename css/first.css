@@ -2,13 +2,15 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background: url("../images/city2.gif") left bottom no-repeat;
+	font: 100%/1.5;
 }
 header{
-	background: url("../images/hiphopcollage.jpg") left bottom no-repeat;
+	background: rgba(255,255,255,0.44);
 }
-#body {
+/*#body {
 	background: url("../images/city.gif") left bottom no-repeat;
-}
+}*/
 #logo {
 	width: 85%;
 	margin: 0 auto;
@@ -34,14 +36,14 @@ nav ul {
 nav ul li {
 	float: left;
 	width: 12.5%;
-	font: 20px 'Dosis', sans-serif;
+	font: 1.4em 'Dosis', sans-serif;
 }
 nav ul li a {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	height: 44px;
-	line-height: 44px;
+	height: 2.5em;
+	line-height: 2.5em;
 }
 nav li a:visited {
 	color: white;
@@ -56,15 +58,15 @@ nav li a:active {
 	background: black;
 }
 p {
-	font-family: 'Sintony', sans-serif;
+	font: 1em/1.5em 'Sintony', sans-serif;
 }
 h1 {
-	font: 30px 'Dosis', sans-serif;
+	font: 1.9em 'Dosis', sans-serif;
 	text-shadow: 4px 3px 1px #bfc5c8; 
 	margin: 0;
 }
 h2 {
-	font-family: 'Cardo', serif;
+	font: normal 1.7em 'Playfair Display', serif;
 }
 #about {
 	background: rgba(255,255,255,0.94);
@@ -77,7 +79,7 @@ h2 {
 	padding: 1.5% 10% 1.5% 2.5%;
 }
 #about h2 {
-	padding-bottom: .1%;
+	padding-bottom: .5%;
 }
 #about p {
 	text-indent: 2em;
@@ -129,6 +131,7 @@ h2 {
 footer {
 	clear: both;
 	overflow: hidden;
-	background: white;
-	padding: 1.5% 2.5%; 
+	background: rgba(255,255,255,0.44);
+	padding: 1.5% 2.5% 1.5% 10%; 
+	border-top: 3px solid black;
 }
