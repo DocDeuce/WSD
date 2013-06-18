@@ -2,15 +2,12 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background: url("../images/city2.gif") left bottom no-repeat;
+	background: url("../images/citymax.gif") left bottom no-repeat;
 	font: 100%/1.5;
 }
 header{
 	background: rgba(255,255,255,0.44);
 }
-/*#body {
-	background: url("../images/city.gif") left bottom no-repeat;
-}*/
 #logo {
 	width: 85%;
 	margin: 0 auto;
@@ -19,6 +16,9 @@ header{
 	max-width: 100%;
 	/*margin: 0;*/
 	display: block;
+}
+#logo img.min {
+	display: none;
 }
 #nav {
 	background: black;
@@ -134,4 +134,33 @@ footer {
 	background: rgba(255,255,255,0.44);
 	padding: 1.5% 2.5% 1.5% 10%; 
 	border-top: 3px solid black;
+}
+
+/* Media Queries */
+
+/* Tablet portrait size to 960px */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	footer { background: red; }
+
+}
+
+/* Mobile landscape to tablet portait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	footer { background: blue; }
+
+}
+
+/* Mobile portait to mobile landscape */
+@media only screen and (max-width: 479px) {
+	body { background: url("../images/citymin.gif") left bottom no-repeat; }
+	nav { width: 100%; padding: 0 2.5%;}
+	#nav { width: 100%; padding: 0 2.5%; }
+	nav ul li { width: 50%; font: 1.2em 'Dosis', sans-serif; }
+	#about { -moz-column-count: 1; 	width: 100%; float: none; margin-top: 11px; padding: 1.5% 2.5%;}		
+	#author { width: 100%; float: none; margin-top: 11px; padding: 1.5% 2.5%; border-right: none; }
+	#gallery ul { margin: 0 auto; }
+	#gallery li { float: none; width: 90%; margin: 0 auto; }
+	#gallery .rm { margin: 0 auto; }
+	/*#logo img { display: none; }
+	#logo img.min { display: block; width: 100%; max-width: 100%; }*/
 }
