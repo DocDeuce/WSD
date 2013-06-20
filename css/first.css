@@ -61,12 +61,12 @@ p {
 	font: 1em/1.5em 'Sintony', sans-serif;
 }
 h1 {
-	font: 1.9em 'Dosis', sans-serif;
+	font: 1.95em 'Dosis', sans-serif;
 	text-shadow: 4px 3px 1px #bfc5c8; 
 	margin: 0;
 }
 h2 {
-	font: normal 1.7em 'Playfair Display', serif;
+	font: normal 1.75em 'Playfair Display', serif;
 }
 #about {
 	background: rgba(255,255,255,0.94);
@@ -112,7 +112,7 @@ h2 {
 	list-style-type: none;
 	float: left;
 	width: 23.5%;
-	font: 20px 'Dosis', sans-serif;
+	font: 1.2em 'Dosis', sans-serif;
 	/*margin-right: 2%;*/
 }
 #gallery .rm {
@@ -140,13 +140,19 @@ footer {
 
 /* Tablet portrait size to 960px */
 @media screen and (min-width: 768px) and (max-width: 959px) {
-	footer { background: red; }
+	nav { width: 100%; }
+	#about { margin-top: 22px; }
+	#author { margin-top: 22px; margin-bottom: 22px; }
+	#gallery li { width: 48%; }
 
 }
 
 /* Mobile landscape to tablet portait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	footer { background: blue; }
+	nav ul li { width: 25%; font: 1.2em 'Dosis', sans-serif; }
+	#about { margin-top: 22px; }
+	#author { margin-top: 22px; margin-bottom: 22px; }
+	#gallery li { width: 48%; }
 
 }
 
