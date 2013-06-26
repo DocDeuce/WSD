@@ -125,6 +125,52 @@ h2 {
 #author p {
 	clear: left;
 }
+
+#cta {
+	background: rgba(255,255,255,0.94);
+	border: 1.5px solid #42abd7;
+	border-right: none;
+	width: 80%;
+	float: right;
+	margin-bottom: 44px;
+	padding: 1.5% 10% 1.5% 2.5%;
+}
+#table {
+	width: 59.3%;
+	float: left;
+	margin-right: 2.5%;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1.5px solid #42abd7;
+	border-top: none;
+}
+th {
+	background: rgba(0,0,0,1);
+	font: normal 1.75em/2em 'Playfair Display', serif;
+	color: white;
+	text-align: center;
+	border: 1.5px solid black;
+	border-bottom: none;
+}
+td {
+	background-color: rgba(255,255,255,0.7);
+	font: 1em/2.5em 'Sintony', sans-serif;
+	text-align: center;
+}
+#form {
+	overflow: hidden;
+	margin-top: 2%;
+	width: 38.2%;
+	font: 1.2em 'Dosis', sans-serif;
+	}
+#form div {
+	padding-bottom: 8px;
+}	
+#form input {
+	float: right;
+}
 footer {
 	clear: both;
 	overflow: hidden;
